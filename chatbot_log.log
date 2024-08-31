@@ -1,0 +1,56 @@
+2024-08-31 01:51:44,369 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 01:51:44,370 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-31 01:51:44,378 - INFO -  * Restarting with stat
+2024-08-31 01:51:45,451 - WARNING -  * Debugger is active!
+2024-08-31 01:51:45,465 - INFO -  * Debugger PIN: 432-406-006
+2024-08-31 01:51:53,717 - INFO - Incoming message: hello from session: default_session
+2024-08-31 01:51:53,717 - INFO - Session data: {}
+2024-08-31 01:51:53,717 - INFO - Responding with common response: Hi there! How can I help you?
+2024-08-31 01:51:53,718 - INFO - 127.0.0.1 - - [31/Aug/2024 01:51:53] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:51:58,478 - INFO - Incoming message: menu from session: default_session
+2024-08-31 01:51:58,478 - INFO - Session data: {}
+2024-08-31 01:51:58,479 - INFO - 127.0.0.1 - - [31/Aug/2024 01:51:58] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:52:05,382 - INFO - Incoming message: 4 from session: default_session
+2024-08-31 01:52:05,383 - INFO - Session data: {}
+2024-08-31 01:52:05,383 - INFO - 127.0.0.1 - - [31/Aug/2024 01:52:05] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:52:09,946 - INFO - Incoming message: 1 from session: default_session
+2024-08-31 01:52:09,947 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:52:10,522 - ERROR - HTTP error occurred: 500 Server Error: Internal Server Error for url: https://test.yourbookingplatform.com/Appointment/GetDataOfTBP
+2024-08-31 01:52:10,523 - INFO - 127.0.0.1 - - [31/Aug/2024 01:52:10] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:52:35,512 - INFO - Incoming message: 0 from session: default_session
+2024-08-31 01:52:35,513 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:52:35,513 - INFO - 127.0.0.1 - - [31/Aug/2024 01:52:35] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:52:46,997 - INFO - Incoming message: back from session: default_session
+2024-08-31 01:52:46,997 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:52:47,025 - INFO - 127.0.0.1 - - [31/Aug/2024 01:52:47] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:52:49,587 - INFO - Incoming message: back from session: default_session
+2024-08-31 01:52:49,588 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:52:49,612 - INFO - 127.0.0.1 - - [31/Aug/2024 01:52:49] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:53:37,483 - INFO - Incoming message: menu from session: default_session
+2024-08-31 01:53:37,483 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:53:37,483 - INFO - 127.0.0.1 - - [31/Aug/2024 01:53:37] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:53:46,585 - INFO - Incoming message: hello from session: default_session
+2024-08-31 01:53:46,586 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:53:46,586 - INFO - Responding with common response: Hello! How can I assist you today?
+2024-08-31 01:53:46,587 - INFO - 127.0.0.1 - - [31/Aug/2024 01:53:46] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:53:50,865 - INFO - Incoming message: menu from session: default_session
+2024-08-31 01:53:50,865 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:53:50,866 - INFO - 127.0.0.1 - - [31/Aug/2024 01:53:50] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:53:57,508 - INFO - Incoming message: back from session: default_session
+2024-08-31 01:53:57,508 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:53:57,531 - INFO - 127.0.0.1 - - [31/Aug/2024 01:53:57] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:54:10,533 - INFO - Incoming message: main menu from session: default_session
+2024-08-31 01:54:10,533 - INFO - Session data: {'company_selected': '4'}
+2024-08-31 01:54:10,534 - INFO - 127.0.0.1 - - [31/Aug/2024 01:54:10] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:54:20,079 - INFO - Incoming message: 6 from session: default_session
+2024-08-31 01:54:20,079 - INFO - Session data: {}
+2024-08-31 01:54:20,080 - INFO - 127.0.0.1 - - [31/Aug/2024 01:54:20] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:54:26,149 - INFO - Incoming message: 2 from session: default_session
+2024-08-31 01:54:26,150 - INFO - Session data: {'company_selected': '6'}
+2024-08-31 01:54:26,638 - ERROR - HTTP error occurred: 500 Server Error: Internal Server Error for url: https://test.yourbookingplatform.com/Appointment/GetDataOfTBP
+2024-08-31 01:54:26,639 - INFO - 127.0.0.1 - - [31/Aug/2024 01:54:26] "POST /bot HTTP/1.1" 200 -
+2024-08-31 01:58:31,103 - INFO -  * Detected change in 'C:\\Users\\Awais\\Music\\whatapp bot\\new.py', reloading
+2024-08-31 01:58:31,212 - INFO -  * Restarting with stat
+2024-08-31 01:58:32,632 - WARNING -  * Debugger is active!
+2024-08-31 01:58:32,642 - INFO -  * Debugger PIN: 432-406-006
